@@ -1,13 +1,29 @@
 // if i use sync that means one after one but when it comes to async processes are working simultaniousely 
 
 function onetofive(){
-    console.log(1);
-    console.log(2);
-    console.log(3);
-    console.log(4);
-    console.log(5);
+    console.log("a");
+    console.log("b");
+    console.log("c");
+    console.log("d");
+    console.log("e");
 
 }
-    console.log(6);
-    console.log(7);
-    console.log(8); 
+    // this is inbuild function where it takes two param, function and the tie it takes to execute
+    setTimeout(onetofive,0);
+    
+
+    
+for (i=0;i<10;i++){
+
+    console.log(i);
+
+}
+
+// another example, 
+console.log("Start");
+setTimeout(() => {
+    console.log("This runs after 4 seconds");
+}, 4000);
+console.log("End");
+
+//he code inside the setTimeout function is executed asynchronously. This means that the rest of your code continues to run without waiting for the setTimeout to complete
