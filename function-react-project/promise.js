@@ -12,7 +12,7 @@ let promise = new Promise((resolve,reject)=>{
 
 promise
     .then( 
-        resultr => console.log(resultr), 
+        resultr => console.log(resultr), // resultr is the value passing from resolve
         error => console.log(error))
     
     // Executes when resolved , .then() is a method used in Promises that executes a function when the Promise is successfully resolved (fulfilled).
@@ -22,4 +22,4 @@ promise
 
 
     .catch(error => console.log(error)) // Executes when rejected
-    .finally(() => console.log("Promise Completed!"));
+    .finally(() => console.log("Promise Completed!")); 
