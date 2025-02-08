@@ -37,7 +37,8 @@ async function doAll1(){
 
    try{
 
-    await takeShower();
+    const result =await takeShower();
+    console.log(result);
     await doHomework();
 }
 catch(error){
