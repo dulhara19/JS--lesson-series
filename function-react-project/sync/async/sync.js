@@ -10,9 +10,7 @@ function onetofive(){
 }
     // this is inbuild function where it takes two param, function and the tie it takes to execute
     setTimeout(onetofive,0);
-    
-
-    
+     
 for (i=0;i<10;i++){
 
     console.log(i);
@@ -26,4 +24,4 @@ setTimeout(() => {
 }, 4000);
 console.log("End");
 
-//he code inside the setTimeout function is executed asynchronously. This means that the rest of your code continues to run without waiting for the setTimeout to complete
+//he code inside the setTimeout function is executed asynchronously. This means that the rest of your code continues to run without waiting for the setTimeout to complete.
