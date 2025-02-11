@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pure react app</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="root"></div> 
@@ -17,20 +18,7 @@
 <!-- Babel (For JSX support in the browser) -->
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-<script>
-    const App = ()=>{
-        return React.createElement(
-           "div",
-           {},
-           "this is react"
-        )
-    }
-
-    const container = document.getElementById("root");
-    const root = ReactDOM.createRoot(container);
-    root.render(React.createElement(App));
-
-</script>
+<script src="App.js"></script>
 
 
 </body>

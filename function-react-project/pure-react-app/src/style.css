@@ -1,0 +1,8 @@
+.divcls{
+    background-color: red;
+}
+.containerdiv{
+    border: 15px;
+    border-color: black;
+    background-color: aqua;
+}
