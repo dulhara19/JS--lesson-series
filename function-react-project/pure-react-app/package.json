@@ -1,0 +1,12 @@
+{
+  "name": "pure-react-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write\"src/**/*.{js,jsx}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.5.0"
+  }
+}

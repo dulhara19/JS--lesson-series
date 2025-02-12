@@ -6,3 +6,9 @@
     border-color: black;
     background-color: aqua;
 }
+.imgdiv{
+    width: auto;
+}
+.img{
+    width: 200px;
+}
