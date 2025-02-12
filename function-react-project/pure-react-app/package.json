@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write\"src/**/*.{js,jsx}\""
+    "format": "prettier --write\"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "devDependencies": {
+    "eslint": "8.56",
+    "eslint-config-prettier": "8.10",
     "prettier": "^3.5.0"
   }
 }
