@@ -19,10 +19,11 @@ import Studentcard from "./components/StudentCard";
 // };
 
 const App = () => {
+  const obj = { name: "dulhara", age: "23", country: "srilanka" };
   return (
     <div className="containerdiv">
       <h1>my react app</h1>
-      <Studentcard />
+      <Studentcard obj={obj} />
     </div>
   );
 };

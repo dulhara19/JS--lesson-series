@@ -1,10 +1,10 @@
 import Students from "./Students";
 
-const Studentcard = () => {
+const Studentcard = ({ obj }) => {
   return (
     <div className="imgdiv">
       <img src="./img/newdp.jpeg" alt="student image" className="img" />
-      <Students />
+      <Students name={obj.name} age={obj.age} country={obj.country} />
     </div>
   );
 };

@@ -1,9 +1,10 @@
-const Students = () => {
+import React from "react";
+const Students = ({ ...props }) => {
   return (
     <div className="divcls">
-      <h3>nimal</h3>
-      <h3>25</h3>
-      <h3>srilanka</h3>
+      <h3>{props.name}</h3>
+      <h3>{props.age}</h3>
+      <h3>{props.country}</h3>
     </div>
   );
 };
